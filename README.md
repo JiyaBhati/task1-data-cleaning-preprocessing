@@ -9,7 +9,7 @@ First, i imported all the libraries required , then imported the Titanic dataset
 Step2 : I found out the percentage of missing values using .isnull().mean()*100 , finding missing values in 'Age' , 'Embarked' and 'Cabin' . I dealt with them using Median for 'Age' , Mode for 'Embarked' and dropped the column 'Cabin' as it had about 77% missing data and including it would not be considered useful.
 
 
-Step3 : Categorical columns are'Sex' and 'Embarked' , I Use Label Encoding for 'Sex' ; One-hot encode 'Embarked' and convert the boolean values to int (1/0) 
+Step3 : Categorical columns are 'Sex' and 'Embarked' , I Use Label Encoding for 'Sex' ; One-hot encode 'Embarked' and convert the boolean values to int (1/0) 
 
 Step4 : Normalize/Standardize the numerical features 
 To get all the numerical features on the same scale i standardized them using StandardScaler 
@@ -21,12 +21,13 @@ I also used .isnull().sum() to confirm that all the missing values have been han
 
 Dataset I Used : 
 Titanic Dataset 
+Link to the dataset = https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
 Tools and Libraries I Used : 
-Google Colab 
-Python 3
-Pandas 
-Numpy 
-Scikit-learn 
-Seaborn 
+Google Colab ,
+Python 3 , 
+Pandas , 
+Numpy , 
+Scikit-learn ,  
+Seaborn ,   
 Matplotlib
